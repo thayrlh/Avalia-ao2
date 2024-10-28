@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{ 
+    background-color:#9d8080;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+nav{
+   display:flex;
+   gap:20px
+}
+nav.menu a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+.div{
+    padding-top: 10%;
+}
+.h1{
+    font-size: 60px;
+    color: white;
+}
+.h2{
+    font-size: 60px;
+    color: white;
+}
+.saibamais{
+    padding:25px;
+    background-color: white;
+    border-radius: 10px;
+    width: 10%;
+    text-decoration: bolder;
+
+}
+.primeira{
+    width:100% ;
+    height:800px ;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.div2{
+    position: relative;
+    top:20%;
+}
+.segunda{
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    margin: auto;
+    width:15%;
+}
+.h3{
+    font-size: 40px;
+    color: black;
+    padding: 30px;
+}
+p{
+    padding: 50px;
+}
+.terceiro-main{
+    background-color: #c3c63b;
+    background-size: cover;
+}
+.terceira{
+    position: relative;
+    margin: auto;
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.galeria{
+    margin-top: 5%;
+    height: 1000px;
+    text-align: center;
+    background-color: #c3c63b;
+    background-size: cover;
+}
+table{
+    padding: 1%;
+    margin: auto;
+}
+.img{
+    height: 450px;
+    width: 900px;
+}
+.quarta{
+    position:relative;
+    height: 800px;
+    background-color:#191c03;
+}
+.sobre{
+    padding:5%;
+    text-align: center;
+    position: relative;
+    justify-content: justified;
+}
+.icon-sobre{
+    height:100px;
+}
+.sobre p{
+    color: white;   
+}
+.sobre h1{
+    color:#C3C63B;
+}
+.sobre2 th{
+    margin: auto;
+    padding: 5px;
+}
+.sobre-h1{
+    color: white;
+    font-size: 50px;
+}
+.quinta{
+    position:relative;
+    height: 500px;
+}
+.newsletter{
+    text-align: center;
+    margin: auto;
+    padding:5%;
+    color:#C3C63B;
+}
+.input th{
+    padding:20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0px;
+}
+.email{
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    width: 100%;
+    margin: 0px;
+    font-size:18px;
+    border:4px solid #C3C63B;
+    border-radius: 8px;
+}
+.email:focus{
+    border:4px solid #C3C63B;
+}
+.cadastrar{
+    padding:30px;
+    margin: 0px;
+    background-color: #C3C63B;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.newsletter hr{
+    border:2px solid #C3C63B;
+}
+
+.sexta{
+    position:relative;
+    height: 300px;
+    background-color: #393F06;
+    text-align: center;
+    padding-top: 1%;
+}
+.rodape img{
+    height: 80px;
+}
+.rodape p {
+    color:#B5B936;
+}
